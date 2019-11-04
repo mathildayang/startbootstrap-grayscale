@@ -207,11 +207,32 @@
           </div>
         </div>
       </div>
+      
+      <style>
+          .project-slider {
+            height: 100%;
+            min-height: 400px;
+          }
+          .project-slider .slick-list,
+          .project-slider .slick-track,
+          .project-slider .slick-slide,
+          .project-slider .slick-slide > div {
+            height: 100%;
+          }
+          .project-slider .image-bg {
+            height: 100%;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+      </style>
 
       <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
+        <div class="slider">  
           <img class="img-fluid" src="img/Aurora.JPG" alt="">
+          <img class="img-fluid" src="img/aurora2.jpeg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -230,7 +251,9 @@
       <!-- Project Four Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
+        <div class="project-slider"> 
           <img class="img-fluid" src="img/IMG_7026.JPG" alt="">
+          <img class="img-fluid" src="img/IMG_7017.JPG" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
